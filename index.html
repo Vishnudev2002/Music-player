@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Audiotape</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <section class="container">
+
+        <div class="section_1">
+
+            <header class="header">
+                <p>
+                    Audiotape
+                </p>
+            </header>
+
+            <div class="audios" id="audios">
+
+                <div class="audio">
+                        <div class="audio_img">
+                            <img src="./thumbnails/thumb_-_murder_-_3_-_2013_-_300.jpg" alt="Teri Jhuki Nazar - Murder 3 Song">
+                        </div>
+                        <div class="audio_info">
+                            <h1 class="audio_title">Teri Jhuki Nazar - Murder 3</h1>
+                            <button class="btn" onclick="playAudio(1)">Play</button>
+                        </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/128Dheere_Dheere_Se_Meri_Zindagi_Mein_Aana_-_Aashiqui_128_Kbps.jpg" alt="Dheere Dheere Se- Aashiqui Song">
+                    </div>
+                    <div class="audio_info">
+                        <h1 class="audio_title">Dheere Dheere Se - Aashiqui</h1>
+                        <button class="btn" onclick="playAudio(2)">Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/Unstopabble.jpg" alt="Unstopabble - This Is Acting Song">
+                    </div>
+                    <div class="audio_info">
+                        <h1 class="audio_title">Unstopabble - This Is Acting</h1>
+                        <button class="btn" onclick="playAudio(3)">Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/bhar_do_jholi.jpg" alt="Bhar Do Jholi - Bajrangi Bhaijaan Song">
+                    </div>
+                    <div class="audio_info">
+                        <h1 class="audio_title">Bhar Do Jholi - Bajrangi Bhaijaan</h1>
+                        <button class="btn" onclick="playAudio(4)">Play</button>
+                    </div>
+                </div>
+
+                
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/Tere_bin.jpg" alt="Tere Bin - Bas Ek Pal Song">
+                    </div>
+                    <div class="audio_info">
+                        <h1 class="audio_title">Tere Bin - Bas Ek Pal</h1>
+
+                        <button class="btn" onclick="playAudio(5)">Play</button>
+                    </div>
+                </div>
+                
+                
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/Tera_Mera.jpg" alt="Tera Mera Rishta Purana - Awarapan Song">
+                    </div>
+                    <div class="audio_info">
+                        <h1 class="audio_title">Tera Mera Rishta - Awarapan</h1>
+                        <button class="btn" onclick="playAudio(6)"> Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/kehndi.jpg" alt="Kehndi Hundi Si - Excuses Song">
+                    </div>
+                    <div class="audio_info">
+                        <h1 class="audio_title">Kehndi Hundi Si - Excuses</h1>
+                        <button class="btn" onclick="playAudio(7)">Play</button>
+                    </div>
+                </div>
+                
+                
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/Kar_Har_Maidan_Fateh.jpg" alt="Kar Har Maidaan Fateh - Sanju Song">
+                    </div>
+                    <div class="audio_info">
+                        <h1 class="audio_title">Kar Har Maidaan Fateh - Sanju</h1>
+                        <button class="btn" onclick="playAudio(8)">Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/Bhool_Bhulaiya.jpg" alt="Labon Ko - Bhool Bhulaiyaa Song">
+                    </div>
+                    <div class="audio_info">
+                        <h1 class="audio_title">Labon Ko - Bhool Bhulaiyaa</h1>
+                        <button class="btn" onclick="playAudio(9)">Play</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- section _ 2 -->
+
+
+        <div class="section_2">
+
+
+            <div class="thumbnail">
+                <img id="thumbnail" src="./thumbnails/thumb_-_murder_-_3_-_2013_-_300.jpg">
+            </div>
+
+            
+            <h1 class="audio_player_title" id="audio_player_title">Teri Jhuki Nazar - Murder 3</h1>
+            
+            <audio id="audio_player" class="audio_player" src="./audio/Teri_Jhuki_Nazar-Murder3_128Kbps.mp3" controls></audio>
+          
+
+        </div>
+
+
+    </section>
+
+
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
