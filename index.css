@@ -43,26 +43,26 @@
 }
 
 .audio{
-    min-height: 250px;
     width: 24%;
-    background-color: #070707;
-    border-radius: 10px;
+    /* background-color: #070707; */
+    /* background-color: #5a5a5a; */
+    background-color: #0e1830;
     overflow: hidden;
 }
 
 .audio_img{
     width: 100%;
-    height: 250px;
     overflow: hidden;
 }
 
 .audio_img > img {
     width: 100%;
-    height: 240px;
+    height: 210px;
+    border-radius: 10px;
 }
 
 .audio_info{
-    padding: 10px;
+    padding: 6px;
     
 }
 
@@ -113,7 +113,7 @@ img[alt]{
 .section_2{
     width: 30%;
     height: 100vh;
-    background-color: #070707;
+    background-color: #0e1830;
     padding: 50px;
     display: flex;
     flex-direction: column;
