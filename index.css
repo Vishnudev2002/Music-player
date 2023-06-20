@@ -45,8 +45,7 @@
 .audio{
     width: 24%;
     /* background-color: #070707; */
-    /* background-color: #5a5a5a; */
-    background-color: #0e1830;
+    background-color: #5a5a5a;
     overflow: hidden;
 }
 
@@ -113,7 +112,7 @@ img[alt]{
 .section_2{
     width: 30%;
     height: 100vh;
-    background-color: #0e1830;
+    background-color: #070707;
     padding: 50px;
     display: flex;
     flex-direction: column;
